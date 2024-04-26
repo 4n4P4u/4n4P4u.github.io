@@ -2,6 +2,7 @@ html { font-size: 62.5%; }
 body { font-size: 16px; }
 .encabezado {font-size: 2rem;} 
 
-.img_redu2 { width: 25%; height: auto;}
+.logo {width: 5em; height: auto;}
+.img_redu2 { width: 20em; height: auto;}
 
 
