@@ -1,0 +1,27 @@
+:root {
+    --negro:#000000;
+    --azul1: #D3F2FA;
+    --azul2: #044555;
+    --dorado: #FFFED9; 
+}
+
+html { font-size: 62.5%; }
+body { font-size: 16px; background-color:cornsilk ; }
+
+.img_redu2 { width: 20em; height: auto;}
+
+header {display:flex; background-color: var(--azul1);  align-items: center; justify-content: center;}
+.logo {width: 6em; height: auto; padding: 0.5em;}
+.encabezado {font-size: 2em;} 
+.encabezado2 {font-size: 1.1em; text-align: center; color: white; background-color: var(--azul2); margin-top: 0em; padding: 0.7em; margin-bottom: 0em;}
+
+.container {width: 50em; margin: 0 auto;}
+.nav_background { background-color: var(--azul1)}
+.nav_principal {display: flex; justify-content: space-between;}
+.nav_principal a {padding: 0.7em; color: var(--azul2); font-size:1.1em ;text-decoration: none;}
+.nav_principal a:hover { background-color:var(--dorado); font-weight: bold;}
+
+@media (min-width: ) {
+    
+}
+
