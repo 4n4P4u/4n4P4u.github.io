@@ -6,7 +6,7 @@
 }
 
 html { font-size: 62.5%; }
-body { font-size: 16px; background-color:cornsilk ; }
+body { font-size: 16px; background-color:cornsilk ; margin-left: 2em; }
 
 .img_redu2 { width: 20em; height: auto;}
 
@@ -15,13 +15,12 @@ header {display:flex; background-color: var(--azul1);  align-items: center; just
 .encabezado {font-size: 2em;} 
 .encabezado2 {font-size: 1.1em; text-align: center; color: white; background-color: var(--azul2); margin-top: 0em; padding: 0.7em; margin-bottom: 0em;}
 
-.container {width: 50em; margin: 0 auto;}
+.container {max-width: 50em; margin: 0 auto;}
 .nav_background { background-color: var(--azul1)}
-.nav_principal {display: flex; justify-content: space-between;}
+.nav_principal {display: flex;  flex-direction: column; align-items: center;}
 .nav_principal a {padding: 0.7em; color: var(--azul2); font-size:1.1em ;text-decoration: none;}
 .nav_principal a:hover { background-color:var(--dorado); font-weight: bold;}
 
-@media (min-width: ) {
-    
-}
+.nav_principal {display: flex;  flex-direction: column; align-items: center;}
+@media (min-width: 520px) {.nav_principal{flex-direction: row; } }
 
