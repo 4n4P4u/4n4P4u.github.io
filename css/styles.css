@@ -6,7 +6,7 @@
 }
 
 html { font-size: 62.5%; }
-body { font-size: 16px; background-color:cornsilk ; margin-left: 2em; }
+body { font-size: 16px; background-color:cornsilk ;  }
 
 .img_redu2 { width: 20em; height: auto;}
 
@@ -17,10 +17,9 @@ header {display:flex; background-color: var(--azul1);  align-items: center; just
 
 .container {max-width: 50em; margin: 0 auto;}
 .nav_background { background-color: var(--azul1)}
-.nav_principal {display: flex;  flex-direction: column; align-items: center;}
-.nav_principal a {padding: 0.7em; color: var(--azul2); font-size:1.1em ;text-decoration: none;}
+.nav_principal {display: flex;  flex-direction: column; align-items: center; }
+.nav_principal a {padding: 0.25em; color: var(--azul2); font-size:1.1em ;text-decoration: none;}
 .nav_principal a:hover { background-color:var(--dorado); font-weight: bold;}
 
-.nav_principal {display: flex;  flex-direction: column; align-items: center;}
-@media (min-width: 520px) {.nav_principal{flex-direction: row; } }
+@media (min-width: 520px) {.nav_principal{flex-direction: row; justify-content: space-between;}.nav_principal a {padding: 0.7em;} }
 
